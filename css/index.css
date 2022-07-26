@@ -81,7 +81,10 @@ padding:32px 0; float: left;}
     }
 #section .article2 { 
     padding-top:50px;
-    padding-bottom:50px; }
+    padding-bottom:50px; 
+
+text-align: center;
+}
 #section .article2 h2 { font-size:30px;
     color:#282866;
     font-size:30px;
@@ -90,34 +93,8 @@ padding:32px 0; float: left;}
     }  
 #section .design > li { 
 padding:10px; float:left; width:25%; }
-#section .design > li > .icon1::before {
-    content:'\f390';
-    font-family:'Font Awesome 5 Free';
-    font-weight:900 !important;
-    padding-left:10px;
-    padding-top:30px;
-}
-#section .design > li > .icon2::before {
-    content:'\f00a';
-    font-family:'Font Awesome 5 Free';
-    font-weight:900 !important;
-    padding-left:10px;
-    padding-top:30px;
-}
-#section .design > li > .icon3::before {
-    content:'\f53f';
-    font-family:'Font Awesome 5 Free';
-    font-weight:900 !important;
-    padding-left:10px;
-    padding-top:30px;
-}
-#section .design > li > .icon4::before {
-    content:'\f7d9';
-    font-family:'Font Awesome 5 Free';
-    font-weight:900 !important;
-    padding-left:10px;
-    padding-top:30px;
-    
+#section .design > li > div {
+    font-size:50px;
 }
 #section .article2 h3 {
     font-size:19px;
@@ -171,6 +148,11 @@ padding:10px; float:left; width:25%; }
 }
 #section .article6 .abc2 { float:right;}
 
-
+#footer {
+    background:#282866;
+    color:#fff;
+    padding:75px 0;
+    text-align:center;
+}
 
 
